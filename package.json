@@ -1,0 +1,28 @@
+{
+  "name": "insta_imge_fetch",
+  "version": "1.0.0",
+  "description": "insta_image_fetch is here to help you easily add Instagram images to your apps, websites, or projects. ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Codenuity/Insta_Image_Fetch.git"
+  },
+  "keywords": [
+    "insta",
+    "instagram",
+    "instagram_image_fetching"
+  ],
+  "author": "Codenuity Solutions Pvt Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codenuity/Insta_Image_Fetch/issues"
+  },
+  "homepage": "https://github.com/Codenuity/Insta_Image_Fetch#readme",
+  "dependencies": {
+    "puppeteer": "^21.6.0"
+  }
+}
