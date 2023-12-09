@@ -33,3 +33,14 @@ const fetchInstagramImages = async (tag) => {
     }
   }
 };
+
+
+export const FetchImages = async (tag) => {
+  try {
+    const imageLinks = await fetchInstagramImages();
+    return imageLinks;
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: error.message });
+  }
+};
