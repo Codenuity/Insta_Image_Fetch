@@ -9,10 +9,10 @@ This npm module allows you to fetch images from Instagram based on a specified t
 To install this package, use the following npm command:
 
 ```bash
-npm install instagram-image-fetcher
+npm npm i insta_imge_fetch
 ```
 ```bash
-import { FetchImages } from "instagram-image-fetcher";
+import { FetchImages } from "insta_imge_fetch";
 
 // Specify the tag and, optionally, the maximum number of retries
 const tag = "yourtag";
@@ -31,7 +31,7 @@ tryCount (optional): The maximum number of retries if no images are initially re
 #Example
 
 ```bash
-import { FetchImages } from "instagram-image-fetcher";
+import { FetchImages } from "insta_imge_fetch";
 
 const tag = "nature";
 const maxRetries = 5;
